@@ -4,285 +4,273 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>グロースパック for LINE「デジタル抽選アセット」 | クラスメソッド</title>
-    <meta name="description" content="LINEミニアプリ活用型「デジタル抽選」パッケージ。友だち獲得から「独自景品」のファン作りまで、すべてをLINEひとつで実現します。">
+    <title>抽選アセット | グロースパック for LINE</title>
+    <meta name="description" content="LINEキャンペーンの「手間」と「コスト」をゼロに。たった数日で導入できる、高機能な「デジタル抽選」アプリ。">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Outfit:wght@400;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Header -->
     <header class="header">
         <div class="container header-container">
-            <div class="logo">Growth Pack for LINE</div>
-            <nav>
-                <a href="#contact" class="btn btn-sm">お問い合わせ</a>
+            <div class="logo">
+                <span class="logo-text">グロースパック <span class="logo-sub">for <span
+                            class="line-brand">LINE</span></span></span>
+            </div>
+            <nav class="nav">
+                <a href="#contact" class="btn btn-sm btn-primary">お問い合わせ</a>
             </nav>
         </div>
     </header>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container hero-container">
-                <div class="hero-content">
-                    <h1 class="hero-title">
-                        <span class="gradient-text">ワクワクが、</span><br>
-                        <span class="gradient-text">顧客資産に変わる。</span>
-                    </h1>
-                    <p class="hero-subtitle">
-                        友だち獲得から「独自景品」のファン作りまで、<br>
-                        すべてをLINEひとつで。
-                    </p>
-                    <p class="hero-description">
-                        アプリDL不要。最短導入で実現する、<br>
-                        LINEミニアプリ活用型「デジタル抽選」パッケージ。
-                    </p>
-                    <div class="hero-cta">
-                        <a href="#contact" class="btn btn-primary">サービス資料をダウンロード（無料）</a>
-                        <a href="#contact" class="btn btn-secondary">導入のご相談・お問い合わせ</a>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="hero-catch">LINEキャンペーンの「手間」と「コスト」をゼロに。</p>
+                <h1 class="hero-title">
+                    <span class="no-break">たった数日で導入できる、</span><br>
+                    <span class="gradient-text no-break">高機能な「デジタル抽選」アプリ。</span>
+                </h1>
+                <p class="hero-desc">
+                    既存のLINE公式アカウントにポン付け可能。来店促進、回遊率UP、友だち獲得を「楽しさ」で加速させる『グロースパック for LINE』の抽選アセット。
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-secondary">デモを利用してみる</a>
+                    <a href="#contact" class="btn btn-primary">資料ダウンロード</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal">
+                <!-- Reusing the CSS animation from previous version as placeholder -->
+                <div class="mockup-phone">
+                    <div class="screen">
+                        <div class="lottery-wheel"></div>
                     </div>
                 </div>
-                <div class="hero-image">
-                    <!-- Placeholder for Hero Image -->
-                    <div class="mockup-phone">
-                        <div class="screen">
-                            <div class="lottery-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Challenges Section -->
+    <section class="section challenges" id="challenges">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">LINE運用の成果、伸び悩んでいませんか？</h2>
+            </div>
+            <div class="challenges-grid">
+                <div class="challenge-card reveal">
+                    <div class="challenge-icon">😓</div>
+                    <h3>マンネリ化とブロック率</h3>
+                    <p>「メッセージ配信だけでは反応が薄く、クーポン目当てで登録したユーザーにすぐブロックされてしまう…」</p>
+                </div>
+                <div class="challenge-card reveal">
+                    <div class="challenge-icon">💸</div>
+                    <h3>開発コストと期間</h3>
+                    <p>「独自のキャンペーンシステムを作りたいが、開発会社に見積もると数百万単位のコストと数ヶ月の期間がかかる…」</p>
+                </div>
+                <div class="challenge-card reveal">
+                    <div class="challenge-icon">📉</div>
+                    <h3>データの活用不足</h3>
+                    <p>「誰がキャンペーンに参加したのか、顧客データがLINE内に埋もれてしまい、次の施策に活かせない…」</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="section solutions" id="solutions">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">その課題、「抽選アセット」が解決します。</h2>
+            </div>
+
+            <div class="solutions-grid reveal">
+                <div class="solution-card">
+                    <h3>最短導入・低コスト</h3>
+                    <p>パッケージ化された「アセット」を利用するため、スクラッチ開発に比べて圧倒的な低コスト・短納期で導入可能です。</p>
+                </div>
+                <div class="solution-card">
+                    <h3>ゲーミフィケーションで<br>エンゲージメントUP</h3>
+                    <p>ただクーポンを配るのではなく、「当たるワクワク感」を提供。毎日引けるログインボーナスや、レシート応募など、飽きさせない施策が可能です。</p>
+                </div>
+                <div class="solution-card">
+                    <h3>顧客セグメントの自動化</h3>
+                    <p>「抽選に参加した人」「当選した人」などの行動データを自動でタグ付け。熱量の高いユーザーを特定し、追客配信が可能になります。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="section comparison" id="comparison">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">なぜ「グロースパック」が選ばれるのか？</h2>
+                <p class="section-subtitle">コストを抑えつつ、必要な機能と拡張性を兼ね備えている点が最大の特徴です。</p>
+            </div>
+            <div class="comparison-table-wrapper reveal">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>機能・特徴</th>
+                            <th class="highlight">本製品（抽選アセット）</th>
+                            <th>一般的なLINEツール</th>
+                            <th>フルスクラッチ開発</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>導入コスト</td>
+                            <td class="highlight"><strong>◎ 低コスト</strong></td>
+                            <td>◯ 普通</td>
+                            <td>△ 非常に高い</td>
+                        </tr>
+                        <tr>
+                            <td>導入スピード</td>
+                            <td class="highlight"><strong>◎ 最短3日〜</strong></td>
+                            <td>◯ 2週間〜</td>
+                            <td>△ 2ヶ月〜</td>
+                        </tr>
+                        <tr>
+                            <td>デザイン自由度</td>
+                            <td class="highlight"><strong>◯ カスタマイズ可</strong></td>
+                            <td>△ 定型のみ</td>
+                            <td>◎ 完全自由</td>
+                        </tr>
+                        <tr>
+                            <td>データ連携</td>
+                            <td class="highlight"><strong>◎ LIFF/ID連携</strong></td>
+                            <td>△ 限定的</td>
+                            <td>◯ 設計次第</td>
+                        </tr>
+                        <tr>
+                            <td>拡張性</td>
+                            <td class="highlight"><strong>◎ 他アセットと連携</strong></td>
+                            <td>△ 単機能のみ</td>
+                            <td>◯ 追加開発が必要</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="section use-cases" id="use-cases">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">あらゆる業種で「成果」を出しています。</h2>
+            </div>
+            <div class="use-cases-grid">
+                <div class="use-case-card reveal">
+                    <div class="use-case-header">
+                        <span class="use-case-tag">小売・アパレル</span>
+                        <h3>来店促進</h3>
+                    </div>
+                    <p><strong>施策:</strong> 店頭のQRコードを読み込んで、その場で当たるスピードくじ。<br>
+                        <strong>効果:</strong> 友だち追加のハードルを下げ、当選クーポンの利用で客単価アップを実現。
+                    </p>
+                </div>
+                <div class="use-case-card reveal">
+                    <div class="use-case-header">
+                        <span class="use-case-tag">商業施設・イベント</span>
+                        <h3>回遊率UP</h3>
+                    </div>
+                    <p><strong>施策:</strong> 施設内の複数箇所を回るデジタルスタンプラリー × 抽選。<br>
+                        <strong>効果:</strong> 普段足が向かないエリアへの誘導に成功し、滞在時間が向上。
+                    </p>
+                </div>
+                <div class="use-case-card reveal">
+                    <div class="use-case-header">
+                        <span class="use-case-tag">EC・Webサービス</span>
+                        <h3>リピート促進</h3>
+                    </div>
+                    <p><strong>施策:</strong> 1日1回引ける「ログインボーナスガチャ」。<br>
+                        <strong>効果:</strong> LINE公式アカウントへの訪問習慣を作り、ブロック率を劇的に改善。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-content reveal">
+                <h2 class="section-title">LINE活用を最大化する<br>「グロースパック for LINE」</h2>
+                <p class="about-lead">本製品は、LINE公式アカウントの機能を拡張するモジュール群「グロースパック」の一つです。</p>
+                <p>単体での利用はもちろん、他のアセットと組み合わせることで、より強力なマーケティング基盤を構築します。</p>
+
+                <div class="synergy-section">
+                    <h3 class="synergy-title">他アセットとのシナジー</h3>
+                    <div class="synergy-grid">
+                        <div class="synergy-card">
+                            <h4>会員証アセットとの連携</h4>
+                            <p>抽選で貯めたポイントを「デジタル会員証」に即時反映。ランクアップ制度と連動させ、ロイヤルカスタマーを育成します。</p>
+                        </div>
+                        <div class="synergy-card">
+                            <h4>セグメント配信との連携</h4>
+                            <p>「ハズレてしまった人」だけに敗者復活戦の案内を送るなど、結果に応じたOne to Oneコミュニケーションを自動化します。</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Problems Section -->
-        <section class="section problems">
-            <div class="container">
-                <div class="section-header text-center">
-                    <h2>こんなお悩みありませんか？</h2>
-                    <p class="section-lead">現場とマーケターの「板挟み」を解決します。</p>
+    <!-- Flow Section -->
+    <section class="section flow" id="flow">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">導入から活用まで、伴走型でサポートします。</h2>
+            </div>
+            <div class="flow-steps">
+                <div class="flow-step reveal">
+                    <div class="step-number">01</div>
+                    <h3>ヒアリング</h3>
+                    <p>現状の課題やキャンペーンの目的をお伺いし、最適な設定プランをご提案します。</p>
                 </div>
-                <div class="grid-3">
-                    <div class="card problem-card reveal">
-                        <div class="icon-box">🎫</div>
-                        <h3>アナログ運用の限界</h3>
-                        <p>「紙の抽選券やガラポンは、準備や集計が大変。不正利用や在庫管理も悩みボ...」</p>
-                    </div>
-                    <div class="card problem-card reveal">
-                        <div class="icon-box">📱</div>
-                        <h3>アプリの壁</h3>
-                        <p>「キャンペーン用にアプリを作っても、わざわざダウンロードしてもらえない...」</p>
-                    </div>
-                    <div class="card problem-card reveal">
-                        <div class="icon-box">💸</div>
-                        <h3>開発コストの壁</h3>
-                        <p>「オリジナルのデジタル抽選を開発しようとしたら、見積もりが高額すぎて断念した...」</p>
-                    </div>
+                <div class="flow-step reveal">
+                    <div class="step-number">02</div>
+                    <h3>要件定義・設計</h3>
+                    <p>当選確率、景品設定、デザイン（ガチャ・スロット等）を決定します。</p>
+                </div>
+                <div class="flow-step reveal">
+                    <div class="step-number">03</div>
+                    <h3>開発・導入</h3>
+                    <p>アカウントへの紐付け設定を行います。最短数日で公開可能です。</p>
+                </div>
+                <div class="flow-step reveal">
+                    <div class="step-number">04</div>
+                    <h3>グロース支援</h3>
+                    <p>リリース後のデータ分析、ABテストによる改善提案など、継続的な成果向上を支援します。</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Solution Section -->
-        <section class="section solution bg-surface">
-            <div class="container">
-                <div class="solution-wrapper">
-                    <div class="solution-content reveal">
-                        <span class="badge">SOLUTION</span>
-                        <h2>「グロースパック for LINE」の<br>デジタル抽選なら、</h2>
-                        <p class="solution-lead">
-                            低コスト・短期間で、<br>
-                            成果につながるキャンペーンを実現します。
-                        </p>
-                        <p>
-                            クラスメソッドの技術力で頻出機能をパッケージ化。
-                            LINEミニアプリを活用するため、ユーザーはQRコードを読み込むだけ。
-                            アプリDLなしで、その場ですぐに抽選に参加できます（インスタント・ウィン）。
-                        </p>
-                    </div>
-                    <div class="solution-visual reveal">
-                        <div class="visual-placeholder">
-                            <div class="qr-scan-anim"></div>
-                        </div>
-                    </div>
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-cta reveal">
+                <h2 class="footer-title">LINEでの顧客体験を、今すぐ変えませんか？</h2>
+                <p class="footer-desc">まずはお気軽に、デモ体験・資料請求をご利用ください。</p>
+                <div class="footer-buttons">
+                    <a href="#" class="btn btn-primary btn-lg">資料を無料ダウンロードする<br><span
+                            style="font-size: 0.7em; font-weight: normal;">導入事例集・機能詳細つき</span></a>
+                    <a href="#" class="btn btn-secondary btn-lg">お問い合わせ・お見積もり</a>
                 </div>
             </div>
-        </section>
-
-        <!-- Merits Section -->
-        <section class="section merits">
-            <div class="container">
-                <div class="section-header text-center">
-                    <h2>選ばれる3つの理由</h2>
-                </div>
-
-                <div class="merit-item reveal">
-                    <div class="merit-content">
-                        <h3><span class="point-num">01</span> 抽選をフックに「友だち」と「データ」が劇的に増える</h3>
-                        <p>ただの賑やかしではありません。抽選参加フローの中で、自然にLINE公式アカウントの<strong>友だち追加</strong>やブロック解除を促します。</p>
-                        <p>さらに、参加時にユーザーID連携を行うことで、取得したデータをその後のセグメント配信や顧客分析に活用可能。一過性のイベントで終わらせず、LTV（顧客生涯価値）向上につなげます。</p>
-                    </div>
-                    <div class="merit-image">
-                        <div class="img-placeholder">Data & Friends Graph</div>
-                    </div>
-                </div>
-
-                <div class="merit-item reverse reveal">
-                    <div class="merit-content">
-                        <h3><span class="point-num">02</span> クーポンだけじゃない。「独自景品」でブランド体験をリッチに</h3>
-                        <p>これまでのデジタル抽選にありがちだった「景品はデジタルクーポンのみ」という制約を突破しました。</p>
-                        <ul class="check-list">
-                            <li><strong>配送型:</strong> 後日配送のための住所入力フォーム連携</li>
-                            <li><strong>店舗引換型:</strong> スタッフによる消込機能付きチケット</li>
-                            <li><strong>デジタルギフト:</strong> ユニークコード（Amazonギフト券など）の発行</li>
-                        </ul>
-                        <p>自社商品のノベルティや豪華賞品を目玉に設定でき、キャンペーンの魅力度が格段に上がります。</p>
-                    </div>
-                    <div class="merit-image">
-                        <div class="img-placeholder">Premium Gifts</div>
-                    </div>
-                </div>
-
-                <div class="merit-item reveal">
-                    <div class="merit-content">
-                        <h3><span class="point-num">03</span> 必要な機能は揃って、導入はスピーディ＆低コスト</h3>
-                        <p>基本機能（抽選演出、確率設定、クーポン付与）はパッケージとして完成済み。</p>
-                        <p>スクラッチ開発に比べて圧倒的に安価かつスピーディに導入可能です。もちろん、企業ロゴへの変更や、既存会員システムとの連携といったカスタマイズにも柔軟に対応します。</p>
-                    </div>
-                    <div class="merit-image">
-                        <div class="img-placeholder">Speed & Cost</div>
-                    </div>
-                </div>
+            <div class="company-info">
+                <p>クラスメソッド株式会社 (Classmethod, Inc.)</p>
             </div>
-        </section>
-
-        <!-- Features Section -->
-        <section class="section features bg-surface">
-            <div class="container">
-                <div class="section-header text-center">
-                    <h2>機能紹介</h2>
-                    <p>標準機能とカスタマイズで、貴社に最適なキャンペーンを構築します。</p>
-                </div>
-                <div class="features-table-wrapper reveal">
-                    <table class="features-table">
-                        <thead>
-                            <tr>
-                                <th>カテゴリ</th>
-                                <th>機能詳細</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th>演出・UI</th>
-                                <td>ガラポン / ルーレット / スクラッチ（標準アニメーション）</td>
-                            </tr>
-                            <tr>
-                                <th>ロジック</th>
-                                <td>当選確率設定 / 等級設定（1等〜ハズレ） / 1日1回などの回数制限</td>
-                            </tr>
-                            <tr>
-                                <th>景品タイプ</th>
-                                <td>クーポン / ポイント自動付与 / <strong>配送先入力フォーム</strong> / <strong>引換チケット</strong></td>
-                            </tr>
-                            <tr>
-                                <th>連携</th>
-                                <td>会員証連携 / POSレジ連携（購入金額条件など）</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </section>
-
-        <!-- Use Cases Section -->
-        <section class="section use-cases">
-            <div class="container">
-                <div class="section-header text-center">
-                    <h2>活用シーン</h2>
-                </div>
-                <div class="grid-2">
-                    <div class="card use-case-card reveal">
-                        <div class="case-badge">CASE 01</div>
-                        <h3>小売・飲食チェーン</h3>
-                        <dl>
-                            <dt>課題</dt>
-                            <dd>レジ待ち時間の有効活用と、再来店の動機づけが欲しい。</dd>
-                            <dt>施策</dt>
-                            <dd>1,000円以上購入で抽選。A賞は「人気メニュー引換券」、参加賞は「次回使える5%OFFクーポン」。</dd>
-                            <dt>効果</dt>
-                            <dd>友だち数が120%増。クーポンの利用率も紙時代より向上。</dd>
-                        </dl>
-                    </div>
-                    <div class="card use-case-card reveal">
-                        <div class="case-badge">CASE 02</div>
-                        <h3>メーカー・新商品プロモーション</h3>
-                        <dl>
-                            <dt>課題</dt>
-                            <dd>実店舗を持たないため、顧客接点が作りにくい。</dd>
-                            <dt>施策</dt>
-                            <dd>商品パッケージのQRコードから抽選。当たりが出たら「限定オリジナルグッズ」を後日配送。</dd>
-                            <dt>効果</dt>
-                            <dd>購入者データを直接取得でき、その後の新商品情報をLINEで配信可能に。</dd>
-                        </dl>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="section faq bg-surface">
-            <div class="container">
-                <div class="section-header text-center">
-                    <h2>よくある質問</h2>
-                </div>
-                <div class="faq-list">
-                    <div class="faq-item reveal">
-                        <div class="faq-question">Q. 導入までの期間はどのくらいですか？</div>
-                        <div class="faq-answer">A. 標準パッケージであれば、最短〇週間〜導入可能です。カスタマイズ内容により異なりますのでご相談ください。</div>
-                    </div>
-                    <div class="faq-item reveal">
-                        <div class="faq-question">Q. 景品表示法などの法的サポートはありますか？</div>
-                        <div class="faq-answer">A.
-                            システム的な制御（上限設定など）は可能ですが、キャンペーン内容の法的確認は貴社にてお願いいたします。運用上の注意点などはアドバイス可能です。</div>
-                    </div>
-                    <div class="faq-item reveal">
-                        <div class="faq-question">Q. 既存の会員アプリと連携できますか？</div>
-                        <div class="faq-answer">A. はい、API連携により既存会員DBとの紐付けが可能です。</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Company Section -->
-        <section class="section company">
-            <div class="container text-center">
-                <h2>運営会社・信頼性</h2>
-                <div class="company-content reveal">
-                    <h3>提供：クラスメソッド株式会社</h3>
-                    <p>技術支援実績3,000社以上。AWSプレミアティアサービスパートナーであり、LINE Biz Partnerとしても認定されています。</p>
-                    <p>確かな技術力とUX設計で、貴社のLINE活用を支援します。</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer CTA -->
-        <footer class="footer" id="contact">
-            <div class="container text-center">
-                <div class="footer-cta-box">
-                    <h2>まずは資料で詳細を確認しませんか？</h2>
-                    <p>「デジタル抽選」の画面デモや、料金プランも掲載しています。</p>
-                    <div class="footer-buttons">
-                        <a href="#" class="btn btn-primary btn-lg">資料ダウンロード（無料）</a>
-                        <a href="#" class="btn btn-secondary btn-lg">お問い合わせ</a>
-                    </div>
-                </div>
-                <div class="copyright">
-                    &copy; Classmethod, Inc.
-                </div>
-            </div>
-        </footer>
-    </main>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
