@@ -1,4 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Handle demo button click with device detection
+    const demoButton = document.getElementById('demo-button');
+    if (demoButton) {
+        demoButton.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            // Check if device is mobile
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) || window.innerWidth <= 768;
+
+            // Redirect to appropriate URL
+            const baseUrl = 'https://prototype-lottery-function.vercel.app';
+            const path = isMobile ? '/mini/welcome' : '/demo/welcome';
+            window.location.href = baseUrl + path;
+        });
+    }
+
     // Reveal animations on scroll
     const revealElements = document.querySelectorAll('.reveal');
 
